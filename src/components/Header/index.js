@@ -9,7 +9,7 @@ const Header = () => (
             <Link to="/" className="link"><li className="nav-item">Home</li> </Link>
             <Link to="/library" className="link"><li className="nav-item">Library</li></Link>
             <li className="nav-item">
-                <img src="https://assets.ccbp.in/frontend/react-js/nxt-watch-profile-img.png" className="profile" />
+                <img src="https://assets.ccbp.in/frontend/react-js/nxt-watch-profile-img.png" alt ="profile" className="profile" />
             </li>
         </ul>
     </nav>
