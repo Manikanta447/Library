@@ -1,5 +1,4 @@
 import {Component} from 'react'
-import logo from './logo.svg';
 import {Route, Routes} from 'react-router-dom'
 import Home from './components/Home';
 import BookCard from './components/BookCard'
