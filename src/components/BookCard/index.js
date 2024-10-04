@@ -1,6 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import ReactContext from '../ReactContext'
-import { GoDotFill } from "react-icons/go";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import Header from '../Header'
 import './index.css'
@@ -39,7 +38,7 @@ const initialBooks = [
 
 const BookCard = props => {
     const {id} = useParams()
-    const details = initialBooks.find(eachBook => eachBook.id == id)
+    const details = initialBooks.find(eachBook => eachBook.id === parseInt(id))
     const {title, author, rating, genre, img, year, description} = details
     const navigate = useNavigate(-1)
 
