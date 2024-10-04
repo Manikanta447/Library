@@ -27,7 +27,6 @@ class Home extends Component {
     state = {booksList: initialBooks}
 
     filterBooks = event => {
-        const {booksList} = this.state
         const searchInput = event.target.value.toLowerCase() 
         const filteredList = initialBooks.filter(eachBook => eachBook.title.toLowerCase().includes(searchInput))
         this.setState({booksList: filteredList})
