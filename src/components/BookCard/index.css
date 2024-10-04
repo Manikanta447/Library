@@ -1,0 +1,150 @@
+.book-main-con{
+    padding: 30px 60px;
+    background-color: #2e2828;
+    min-height: 80vh;
+}
+
+.cover-page{
+    height: 450px;
+    width: 400px;
+    margin-right: 20px;
+}
+
+
+.details{
+    padding: 10px;
+    align-self: flex-start;
+    font-family: "Lato", sans-serif;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.book-title{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin: 0px;
+}
+
+.book-author{
+    margin:10px 0px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fef4f4;
+}
+
+.book-genre{
+    font-size: 19px;
+    color: #fef4f4;
+    margin:9px 0px;
+}
+
+.book-rating {
+    font-size: 18px;
+    color: #fef4f4;
+    font-weight: 500;
+    margin: 9px 0px;
+}
+
+.add-library{
+    height: 50px;
+    width: 120px;
+    background-color: #f65151;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 10px;
+}
+
+.add-library:hover{
+    background-color: #d94343;
+    transform: translateY(-3px);
+}
+
+.add-library:focus{
+    outline: 2px solid #2e2828;
+    outline-offset: 2px;
+}
+
+.book-year{
+    font-size: 18px;
+    color: #fef4f4;
+    font-weight: 400;
+    margin: 9px 10px;
+}
+
+.temp {
+    display: flex;
+    align-items: center;
+    margin:0px;
+}
+
+.plot{
+    font-family: "Lato", sans-serif;
+    font-size: 25px;
+    margin:15px 0px;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.plot-para{
+    font-family: "Lato", sans-serif;
+    color: #d3d3d3;
+    line-height: 1.6;
+    font-size: 16px;
+    width: 95%;
+
+}
+
+.back{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+    color:white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.arrow{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.image-temp{
+    display: flex;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 910px) {
+    .temp{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 10px;
+    }
+    .span{
+        display: none;
+    }
+
+    .book-year{
+        margin: 10px 0px;
+    }
+
+    .plot-para{
+        font-size: 14px;
+        width: 100%;
+    }
+}
